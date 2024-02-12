@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+section{
+    display: flex;
+    margin: 70px auto;
+    border: 2px solid;
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    background-color:rgb(154, 178, 182);
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.h1{
+    position: absolute;
+    display: flex;
+    right:45%;
+    top:10px;
+    font-size: 40px;
+    padding-bottom: 50px;
+    z-index: 1;
+}
+
+.Hockey{
+    display: none;
+}
+
+.box1{
+    border: 1px solid none;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+
+.img1{
+    display: flex;
+    
+}
+
+.img2{
+    display: flex;
+    
+}
+
+img{
+    max-width: 250px;
+    max-height: 300px;
+    min-width: 200px;
+    min-height: 200px;
+} 
+
+.img3 {
+    position: relative;
+   display: none;
+   width: 300px;
+   height: 400px;
+}
+
+.img4{
+    position: relative;
+    width: 300px;
+   height: 400px;
+    display: none;
+}
+
+.box3{
+    display: none;
+}
+
+.Football{
+    display: none;
+}
+
+
+@media only screen and (max-width:1520px){
+
+    section{
+        background-color: rgb(206, 221, 171);
+    }
+
+    .Hockey{
+        display: block;
+    }
+
+    .h1{
+        position: absolute;
+        z-index: 1;
+        left: 40%;
+        font-size: 30px;
+
+    }
+
+
+    .img1{
+        display: none;
+    }
+
+    .img2{
+        display: none;
+    }
+
+    .box2{
+        border: 1px solid none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 100px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+        gap: 1rem;
+    }
+
+    .img3{
+        display: block;
+    }
+
+    .img4{
+        display: block;
+    }
+
+    .Cricket{
+        display: none;
+    }
+
+.Football{
+    display: none;
+}
+}
+@media only screen and (max-width:760px) {
+
+    section{
+        background-color: rgb(138, 138, 189);
+    }
+  
+    .box1{
+        display: none;
+    }
+
+.box2{
+    display: none;
+}
+ 
+.img3{
+    display: none;
+}
+
+.img4{
+    display: none;
+}
+
+.box3{
+    display: block;
+    border: 2px solid none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 50px;
+}
+    
+.Football{
+    display: block;
+}
+
+.Hockey{
+    display: none;
+}
+
+.img5{
+    display: block;
+}
+
+.img6{
+    display: block;
+}
+ img{
+    max-width: 80px;
+    max-height: 80px;
+ }
+
+}
+
